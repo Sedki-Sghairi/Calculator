@@ -20,12 +20,13 @@ button {
 	width: 75px;
 	background-color: #bdbdbd;
 	border-radius: 50%;
-	margin: 1px;
+	margin: 2px;
 	font-size: 30px;
 	outline: 0;
 	border-width: 0;
 	text-align: center;
 	align-items: center;
+	cursor: pointer;
 }
 
 .answer {
@@ -49,11 +50,12 @@ button {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 15px;
+	padding: 10px;
 }
 #orange {
 	background-color: #ef6c00;
 	color: #eeeeee;
+	text-align: center;
 }
 
 #non {
