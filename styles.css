@@ -20,11 +20,12 @@ button {
 	width: 75px;
 	background-color: #bdbdbd;
 	border-radius: 50%;
-	margin: 2px;
+	margin: 1px;
 	font-size: 30px;
 	outline: 0;
 	border-width: 0;
 	text-align: center;
+	align-items: center;
 }
 
 .answer {
@@ -44,11 +45,11 @@ button {
 .command {
 	width: 100%;
 	background-color: #212121;
-
+	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 10px;
+	padding: 15px;
 }
 #orange {
 	background-color: #ef6c00;
